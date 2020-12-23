@@ -1,0 +1,11 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?php
+$con= mysqli_connect("ip","root","pass","database") or die("Error: " . mysqli_error($con));
+mysqli_query($con, "SET NAMES 'utf8' ");
+?>
+</body>
+</html>
